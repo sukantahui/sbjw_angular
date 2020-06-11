@@ -1,17 +1,3 @@
 This is Test 1
 This is Test 2
-To go back to last desired commit you have to go to git hub. Click on total number of Commits. Click on your required commit link
-and copy the commit id, above shown. For example, I want to back the commit where commit message is "updated-1 cipu.txt ". My command is
-
- -> git checkout 52c545bcc7fed94e11f489881f96e38555c566c0
-
-Now your branch is head detached. And project is in previous version. Follow below commands before your next commit:
--> git reset master
--> git chekout master
--> git commit . -m "update with new commit"
--> git push
-
-
-=================================**************=======================
-git log (display all commits with commit id and message)
-git log -1 (show last commit details;)
+test after new changes 
