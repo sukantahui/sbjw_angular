@@ -5,8 +5,13 @@ and copy the commit id, above shown. For example, I want to back the commit wher
 
  -> git checkout 52c545bcc7fed94e11f489881f96e38555c566c0
 
-Now your branch is head detached. Follow below commands:
+Now your branch is head detached. And project is in previous version. Follow below commands before your next commit:
 -> git reset master
 -> git chekout master
 -> git commit . -m "update with new commit"
 -> git push
+
+
+=================================**************=======================
+git log (display all commits with commit id and message)
+git log -1 (show last commit details;)
